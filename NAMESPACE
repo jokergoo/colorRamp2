@@ -1,0 +1,9 @@
+export("add_transparency")
+export("col2value")
+export("colorRamp2")
+export("rand_color")
+
+import(colorspace)
+importFrom("grDevices", "col2rgb", "hcl.colors", "rgb")
+importFrom("methods", "as")
+importFrom("stats", "runif")
